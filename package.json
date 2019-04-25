@@ -1,0 +1,41 @@
+{
+  "name": "jscms-bak",
+  "version": "0.0.1",
+  "description": "jscms-bak",
+  "main": "index.js",
+  "bin": {
+    "jscms-bak": "bin/build.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "bin",
+    "lib",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-cms/jscms-bak.git"
+  },
+  "author": "zhibing <17560235@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/js-cms/jscms-bak/issues"
+  },
+  "homepage": "https://github.com/js-cms/jscms-bak#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "fs-extra": "^7.0.1",
+    "modelman": "^0.1.3",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.3",
+    "semver": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}
