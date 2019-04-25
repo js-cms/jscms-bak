@@ -22,11 +22,11 @@ checkNodeVersion(requiredVersion, 'jscms-bak');
 const program = require('commander');
 
 program
-  .version(require('../package').version)
+  .version(require('../package.json').version)
   .usage('<command> [options]');
 
 program
-  .command('backup <folder-name>')
+  .command('backup <app-folder>')
   .description('Back up the database and resource files of jscms.')
   .action((folderName, cmd) => {
     const options = cleanArgs(cmd);
@@ -34,7 +34,7 @@ program
   });
 
 program
-  .command('restore <folder-name>')
+  .command('restore <app-folder>')
   .description('Restore the database and resource files of jscms.')
   .action((folderName, cmd) => {
     const options = cleanArgs(cmd);
