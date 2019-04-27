@@ -1,6 +1,6 @@
 {
   "name": "jscms-bak",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "jscms-bakThe jscms backup tool is mainly used to backup and restore databases and resource files.",
   "main": "index.js",
   "bin": {
